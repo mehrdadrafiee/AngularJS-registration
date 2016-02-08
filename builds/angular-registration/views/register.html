@@ -11,8 +11,9 @@
 
     <fieldset>
       <input type="text" name="firstname" placeholder="First Name" ng-model="user.firstName" ng-required="true">
-      <p ng-show="myform.firstName.$invalid && myform.lastName.$touched">First name required</p>
+      <p ng-show="myform.firstName.$invalid && myform.firstName.$touched">First name required</p>
       <input type="text" name="lastname" placeholder="Last Name" ng-model="user.lastName">
+      <p ng-show="myform.lastName.$invalid && myform.lastName.$touched">Last name required</p>
       <input type="email" name="email" placeholder="Email" ng-model="user.email" ng-required="true">
       <p ng-show="myform.email.$invalid && myform.email.$touched">Enter a valid email address</p>
       <input type="password" name="password" placeholder="Password" ng-model="user.password" ng-required="true">
