@@ -6,6 +6,10 @@ myApp.controller('RegistrationController',
     Authentication.login($scope.user);
   };//Login
 
+  $scope.logout = function() {
+    Authentication.logout();
+  };//Logout
+
   $scope.register = function() {
     Authentication.register($scope.user);
   };//Register
