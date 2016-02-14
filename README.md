@@ -8,3 +8,4 @@ Added registration functionality to an [AngularJS](https://angularjs.org/) app t
 - [ngAnimate](https://docs.angularjs.org/api/ngAnimate)
 
 ![Alt text](builds/angular-registration/img/Screenshot.png "Form screen shot")
+![Alt text](builds/angular-registration/img/screenshot2.png "Form screen shot")
